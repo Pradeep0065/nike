@@ -1,2 +1,2 @@
 # nike
-Nike shopping site using HTML, CSS, JS
+Nike shopping site using HTML, CSS, jquery
