@@ -94,6 +94,9 @@ section nav ul li a:hover {
 .menu-bar {
     display: none;
 }
+.account{
+    display: none;
+}
 
 .icons {
     width: 25%;
@@ -1005,7 +1008,7 @@ footer .footer_main .tag .search_bar button {
 
 @media screen and (max-width: 600px) {
     section nav .logo {
-        width: 50%;
+        width: 85%;
     }
     section {
         /* width: 100%;
@@ -1020,7 +1023,7 @@ footer .footer_main .tag .search_bar button {
     }
 
     .menu {
-        width: 50%;
+        width: 15%;
         text-align: right;
         position: relative;
         right: 30px;
@@ -1051,6 +1054,11 @@ footer .footer_main .tag .search_bar button {
 
     .menu-bar {
         display: block;
+    }
+    .account{
+        display: block;
+        position: absolute;
+        right: 100px;
     }
     
     section .main .main_content {
