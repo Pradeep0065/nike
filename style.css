@@ -605,6 +605,14 @@ section .main .button:hover i {
     background-size: cover;
     background-position: center;
 }
+textarea{
+    border: none;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
 
 .login_form .left img {
     width: 70%;
@@ -1029,6 +1037,7 @@ footer .footer_main .tag .search_bar button {
     }
     section nav ul li a{
         padding: 10px;
+        font-size: 15px;
     }
     section nav ul li a:hover{
         cursor: pointer;
