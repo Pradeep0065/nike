@@ -320,16 +320,16 @@
             <div class="about_image">
                 <div class="about_small_image">
                     <img src="images/red_shoes1.png" onclick="changingpath('images/red_shoes1.png')">
-                    <img src="images/red_shoes2.png" onclick="func(this)">
-                    <img src="images/red_shoes3.png" onclick="func(this)">
-                    <img src="images/red_shoes4.png" onclick="func(this)">
+                    <img src="images/red_shoes2.png" onclick="changingpath('images/red_shoes2.png')">
+                    <img src="images/red_shoes3.png" onclick="changingpath('images/red_shoes3.png')">
+                    <img src="images/red_shoes4.png" onclick="changingpath('images/red_shoes4.png')">
                 </div>
                 <div class="image_container">
-                    <img src="images/red_shoes2.png" id="imagebox">
+                    <img src="images/red_shoes1.png" id="imagebox">
                 </div>
                 <script>
                     function changingpath(path){
-                        document.getElementById('imagebox').setAttribute('src',path)
+                        document.getElementById('imagebox').setAttribute('src',path);
                     }
                 </script>
 
@@ -652,7 +652,7 @@
             <div class="tag">
                 <h1>Newsletter</h1>
                 <div class="search_bar">
-                    <input type="text" placeholder="You email id here">
+                    <input type="text" placeholder="You email id">
                     <button type="submit">Subscribe</button>
                 </div>
             </div>
