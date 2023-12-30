@@ -1076,7 +1076,7 @@ footer .footer_main .tag .search_bar button {
         grid-template-columns: 2fr;
     }
     .review h1{
-        font-size: 40px;
+        font-size: 20px;
     }
     .review .review_box {
         grid-template-columns: 1fr;
