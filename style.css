@@ -9,6 +9,7 @@
     content: "";
     display: table;
     clear: both;
+    
 }
 
 html {
@@ -31,7 +32,7 @@ html {
 
 section {
     width: 100%;
-    background-image: url(images/bg1.png);
+    
     background-size: cover;
     background-position: center;
 }
@@ -109,6 +110,7 @@ section nav .icons i {
     font-size: 18px;
     transition: 0.3s;
 }
+
 
 section nav .icons i:hover {
     color: #c72092;
@@ -271,7 +273,7 @@ section .main .button:hover i {
 }
 
 .products .box .card .image img {
-    width: 50%;
+    width: 30%;
     margin: 5% 0;
     transition: 0.3s;
 }
@@ -854,7 +856,159 @@ footer .footer_main .tag .search_bar button {
     cursor: pointer;
     margin-left: 1%;
 }
+.top1{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    margin-top: 5%;
+}
+.top1 a{
+   text-decoration: none;
+}
+.main_product{
+    width: 100%;
+    margin-top: 2%;
+}
+.main_contain{
+    width: 100%;
+    display: flex;
+}
 
+.home{
+    padding: 0 1%;
+}
+.category{
+    box-shadow: 0 0 8px #6c14d0;
+    width: 20%;
+    align-items: center;
+    border-radius: 1%;
+}
+.category img{
+    width: 50px;
+}
+.category a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin-left: -30%;
+}
+.category a span{
+    margin: 20px;
+}
+.category h2{
+    border-bottom: 1px solid #c72092;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    gap: 10px;
+}
+.contain{
+    width: 80%;
+}
+.contain_img{
+    width: 60%;
+    /* margin-left: 1%; */
+    margin-top: 1%;
+    padding-left: 4%;
+}
+.contain_child {
+    display: flex;
+}
+.contain_imgsmall img{
+    width: 100px;
+    margin-top: 10%;
+}
+.mainimg img{
+    width: 80%;
+    border: 3px solid #6c14d0;
+    border-radius: 20px;
+    padding: 3%;
+    box-shadow: 0 0 8px #6c14d0;
+}
+.about_product{
+    width: 40%;
+    padding-right: 1%;
+}
+.price{
+    box-shadow: 0 0 8px #6c14d0;
+    width: 100%;
+    padding: 5%;
+    line-height: 30px;
+}
+.price button{
+   padding: 10px;
+    color: white;
+    /* padding: 1% 2%; */
+    border-radius: 10px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+}
+.about_product h2{
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Products_star i{
+    color: yellow;
+}
+.price h6 a{
+    text-decoration: none;
+}
+.price h6 a:hover{
+    color: red;
+}
+.price .button{
+    border: 1px solid #6c14d0;
+    width: 20%;
+    padding: 5px 5px 5px 0;
+    position: relative;
+    margin-bottom: 10px;
+}
+.price .up{
+    position: absolute;
+    bottom: 50%;
+}
+.price .down{
+    position: absolute;
+    top: 50%;
+}
+.bt i:hover{
+    color: #c72092;
+}
+
+.description{
+    border-bottom:1px solid #c72092;
+    padding: 10px 0;
+    word-spacing: 10px;
+}
+.description a{
+    text-decoration: none;
+}
+.description a:hover{
+    text-decoration: underline;
+}
+.description_content ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.description_content ul li span {
+   margin-right: 50px;
+}
+.upper_content{
+    padding: 10px 0;
+}
+.tabs h1{
+    font-size: 30px;
+}
+.tabs .review_box {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.img{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.container1{
+    background-image: none;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -1002,6 +1156,26 @@ footer .footer_main .tag .search_bar button {
     footer .footer_main .tag .social_link a {
         width: 30%;
     }
+    .contain {
+        width: 70%;
+    }
+    .contain_child {
+        display: block;
+        width: 100%;
+    }
+    .category {
+        width: 30%;
+    }
+    .contain_img {
+        width: 100%;
+    }
+    .mainimg img {
+        width: 95%;
+    }
+    .about_product {
+        width: 95%;
+        margin-left: 2%;
+    }
 
 }
 
@@ -1036,6 +1210,10 @@ footer .footer_main .tag .search_bar button {
     }
     section nav ul li {
         display: flex;
+    }
+    section nav ul li .button{
+        display: block;
+        
     }
     section nav ul li a{
         padding: 10px;
@@ -1133,6 +1311,18 @@ footer .footer_main .tag .search_bar button {
     }
     footer .footer_main .tag .search_bar button {
         margin-top: 20%;
+    }
+    .main_contain {
+        width: 100%;
+        display: block;
+    }
+    .category {
+        width: 60%;
+        margin: 0 0 4% 4%;
+    }
+    .contain_imgsmall img {
+        width: 95px;
+ 
     }
    
 
