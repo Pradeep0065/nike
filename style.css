@@ -1322,7 +1322,17 @@ footer .footer_main .tag .search_bar button {
     }
     .contain_imgsmall img {
         width: 95px;
+        margin-left: 20px;
  
+    }
+    .top1 {
+        margin-top: 8%;
+    }
+    .contain {
+        width: 100%;
+    }
+    .about_product {
+        margin-top: 5%;
     }
    
 
