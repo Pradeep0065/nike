@@ -45,21 +45,6 @@ document.write(`
     </div>
 
 </footer>
-<script>
-
-
-                                $(document).ready( function(){
-                            
-                                    $('.nav-item').click( function(){
-                                        var data = $(this).attr('data');
-                                        $('.tabs').hide();
-                                        $(`#${data}-tab`).show();
-                                    });
-                            
-                               });
-                            
-                            
-                            </script>
 
 
 </body>
