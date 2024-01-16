@@ -253,6 +253,18 @@
                 </div>
             </div>
         </div>
+             <script>
+                            $(document).ready( function(){
+                        
+                                $('.nav-item').click( function(){
+                                    var data = $(this).attr('data');
+                                    $('.tabs').hide();
+                                    $(`#${data}-tab`).show();
+                                });
+                        
+                           });
+                                                
+                        </script>
     </div>
     <div class="products row" id="products">
         <h3 class="upper_content">Related products</h3>
