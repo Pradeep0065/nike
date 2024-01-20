@@ -1199,24 +1199,34 @@ footer .footer_main .tag .search_bar button {
         width: 15%;
         text-align: right;
         position: relative;
-        right: 30px;
+        right: 10px;
     }
     section nav ul{
         position: absolute;
         right: 0;
-        top: 30px;
-        padding: 20px;
+        top: 25px;
+        padding: 50px;
         background-color: whitesmoke;
     }
     section nav ul li {
         display: flex;
+        padding: 20px 30px 20px 30px;
     }
-    section nav ul li .button{
-        display: block;
+    section nav ul li button{
+        display: block !important;
+        padding: 0 30px 0 30px;
+        border: none;
+       
+        
+    }
+    section nav ul li button:hover{
+        background-color: rgba(51, 50, 50, 0.733);
+       color: #999999;
+       transform: translate3d(360deg);
         
     }
     section nav ul li a{
-        padding: 10px;
+        /* padding: 10px; */
         font-size: 15px;
     }
     section nav ul li a:hover{
@@ -1334,7 +1344,9 @@ footer .footer_main .tag .search_bar button {
     .about_product {
         margin-top: 5%;
     }
- .login_icon{
-     margin-bottom: 10px;
+    .login_icon{
+        margin-bottom: 10px;
+    }
+   
 
 }
